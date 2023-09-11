@@ -1,3 +1,10 @@
+"""Implementação de um jogo da velha NxN, ele funciona como uma matriz, recebe a coordenada da linha e depois da coluna para colocar
+    ou um X ou O, as regras são as mesmas do jogo da velha 3x3, para  uma vitória foi usado as funções all e any(vistas em aula) para verificar
+    a vitória ou por colunas,linhas e diagonal.
+    basicamente é igual ao exercício 1, a única coisa que vai mudar nesse é que agora o usuário pode solicitar a dimensão que prefere jogar.
+"""
+
+
 class JogoDaVelhaNxN:
     def __init__(self, tamanho):
         self.tamanho = tamanho
